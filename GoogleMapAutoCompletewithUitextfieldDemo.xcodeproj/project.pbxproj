@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36E3BADB22BCC3A1000F02FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E3BADA22BCC3A1000F02FE /* AppDelegate.swift */; };
+		36E3BADD22BCC3A1000F02FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E3BADC22BCC3A1000F02FE /* ViewController.swift */; };
+		36E3BAE022BCC3A1000F02FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36E3BADE22BCC3A1000F02FE /* Main.storyboard */; };
+		36E3BAE322BCC3A1000F02FE /* GoogleMapAutoCompletewithUitextfieldDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 36E3BAE122BCC3A1000F02FE /* GoogleMapAutoCompletewithUitextfieldDemo.xcdatamodeld */; };
+		36E3BAE522BCC3A4000F02FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36E3BAE422BCC3A4000F02FE /* Assets.xcassets */; };
+		36E3BAE822BCC3A4000F02FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36E3BAE622BCC3A4000F02FE /* LaunchScreen.storyboard */; };
+		36E3BAF322BCC3A4000F02FE /* GoogleMapAutoCompletewithUitextfieldDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E3BAF222BCC3A4000F02FE /* GoogleMapAutoCompletewithUitextfieldDemoTests.swift */; };
+		36E3BAFE22BCC3A4000F02FE /* GoogleMapAutoCompletewithUitextfieldDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E3BAFD22BCC3A4000F02FE /* GoogleMapAutoCompletewithUitextfieldDemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36E3BAEF22BCC3A4000F02FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36E3BACF22BCC3A1000F02FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36E3BAD622BCC3A1000F02FE;
+			remoteInfo = GoogleMapAutoCompletewithUitextfieldDemo;
+		};
+		36E3BAFA22BCC3A4000F02FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36E3BACF22BCC3A1000F02FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36E3BAD622BCC3A1000F02FE;
+			remoteInfo = GoogleMapAutoCompletewithUitextfieldDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36E3BAD722BCC3A1000F02FE /* GoogleMapAutoCompletewithUitextfieldDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleMapAutoCompletewithUitextfieldDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36E3BADA22BCC3A1000F02FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		36E3BADC22BCC3A1000F02FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		36E3BADF22BCC3A1000F02FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		36E3BAE222BCC3A1000F02FE /* GoogleMapAutoCompletewithUitextfieldDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoogleMapAutoCompletewithUitextfieldDemo.xcdatamodel; sourceTree = "<group>"; };
+		36E3BAE422BCC3A4000F02FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36E3BAE722BCC3A4000F02FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		36E3BAE922BCC3A4000F02FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36E3BAEE22BCC3A4000F02FE /* GoogleMapAutoCompletewithUitextfieldDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleMapAutoCompletewithUitextfieldDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36E3BAF222BCC3A4000F02FE /* GoogleMapAutoCompletewithUitextfieldDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapAutoCompletewithUitextfieldDemoTests.swift; sourceTree = "<group>"; };
+		36E3BAF422BCC3A4000F02FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36E3BAF922BCC3A4000F02FE /* GoogleMapAutoCompletewithUitextfieldDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleMapAutoCompletewithUitextfieldDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36E3BAFD22BCC3A4000F02FE /* GoogleMapAutoCompletewithUitextfieldDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapAutoCompletewithUitextfieldDemoUITests.swift; sourceTree = "<group>"; };
+		36E3BAFF22BCC3A4000F02FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36E3BAD422BCC3A1000F02FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36E3BAEB22BCC3A4000F02FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36E3BAF622BCC3A4000F02FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36E3BACE22BCC3A1000F02FE = {
+			isa = PBXGroup;
+			children = (
+				36E3BAD922BCC3A1000F02FE /* GoogleMapAutoCompletewithUitextfieldDemo */,
+				36E3BAF122BCC3A4000F02FE /* GoogleMapAutoCompletewithUitextfieldDemoTests */,
+				36E3BAFC22BCC3A4000F02FE /* GoogleMapAutoCompletewithUitextfieldDemoUITests */,
+				36E3BAD822BCC3A1000F02FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36E3BAD822BCC3A1000F02FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36E3BAD722BCC3A1000F02FE /* GoogleMapAutoCompletewithUitextfieldDemo.app */,
+				36E3BAEE22BCC3A4000F02FE /* GoogleMapAutoCompletewithUitextfieldDemoTests.xctest */,
+				36E3BAF922BCC3A4000F02FE /* GoogleMapAutoCompletewithUitextfieldDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36E3BAD922BCC3A1000F02FE /* GoogleMapAutoCompletewithUitextfieldDemo */ = {
+			isa = PBXGroup;
+			children = (
+				36E3BADA22BCC3A1000F02FE /* AppDelegate.swift */,
+				36E3BADC22BCC3A1000F02FE /* ViewController.swift */,
+				36E3BADE22BCC3A1000F02FE /* Main.storyboard */,
+				36E3BAE422BCC3A4000F02FE /* Assets.xcassets */,
+				36E3BAE622BCC3A4000F02FE /* LaunchScreen.storyboard */,
+				36E3BAE922BCC3A4000F02FE /* Info.plist */,
+				36E3BAE122BCC3A1000F02FE /* GoogleMapAutoCompletewithUitextfieldDemo.xcdatamodeld */,
+			);
+			path = GoogleMapAutoCompletewithUitextfieldDemo;
+			sourceTree = "<group>";
+		};
+		36E3BAF122BCC3A4000F02FE /* GoogleMapAutoCompletewithUitextfieldDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				36E3BAF222BCC3A4000F02FE /* GoogleMapAutoCompletewithUitextfieldDemoTests.swift */,
+				36E3BAF422BCC3A4000F02FE /* Info.plist */,
+			);
+			path = GoogleMapAutoCompletewithUitextfieldDemoTests;
+			sourceTree = "<group>";
+		};
+		36E3BAFC22BCC3A4000F02FE /* GoogleMapAutoCompletewithUitextfieldDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				36E3BAFD22BCC3A4000F02FE /* GoogleMapAutoCompletewithUitextfieldDemoUITests.swift */,
+				36E3BAFF22BCC3A4000F02FE /* Info.plist */,
+			);
+			path = GoogleMapAutoCompletewithUitextfieldDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36E3BAD622BCC3A1000F02FE /* GoogleMapAutoCompletewithUitextfieldDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36E3BB0222BCC3A4000F02FE /* Build configuration list for PBXNativeTarget "GoogleMapAutoCompletewithUitextfieldDemo" */;
+			buildPhases = (
+				36E3BAD322BCC3A1000F02FE /* Sources */,
+				36E3BAD422BCC3A1000F02FE /* Frameworks */,
+				36E3BAD522BCC3A1000F02FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleMapAutoCompletewithUitextfieldDemo;
+			productName = GoogleMapAutoCompletewithUitextfieldDemo;
+			productReference = 36E3BAD722BCC3A1000F02FE /* GoogleMapAutoCompletewithUitextfieldDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36E3BAED22BCC3A4000F02FE /* GoogleMapAutoCompletewithUitextfieldDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36E3BB0522BCC3A4000F02FE /* Build configuration list for PBXNativeTarget "GoogleMapAutoCompletewithUitextfieldDemoTests" */;
+			buildPhases = (
+				36E3BAEA22BCC3A4000F02FE /* Sources */,
+				36E3BAEB22BCC3A4000F02FE /* Frameworks */,
+				36E3BAEC22BCC3A4000F02FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36E3BAF022BCC3A4000F02FE /* PBXTargetDependency */,
+			);
+			name = GoogleMapAutoCompletewithUitextfieldDemoTests;
+			productName = GoogleMapAutoCompletewithUitextfieldDemoTests;
+			productReference = 36E3BAEE22BCC3A4000F02FE /* GoogleMapAutoCompletewithUitextfieldDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		36E3BAF822BCC3A4000F02FE /* GoogleMapAutoCompletewithUitextfieldDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36E3BB0822BCC3A4000F02FE /* Build configuration list for PBXNativeTarget "GoogleMapAutoCompletewithUitextfieldDemoUITests" */;
+			buildPhases = (
+				36E3BAF522BCC3A4000F02FE /* Sources */,
+				36E3BAF622BCC3A4000F02FE /* Frameworks */,
+				36E3BAF722BCC3A4000F02FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36E3BAFB22BCC3A4000F02FE /* PBXTargetDependency */,
+			);
+			name = GoogleMapAutoCompletewithUitextfieldDemoUITests;
+			productName = GoogleMapAutoCompletewithUitextfieldDemoUITests;
+			productReference = 36E3BAF922BCC3A4000F02FE /* GoogleMapAutoCompletewithUitextfieldDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36E3BACF22BCC3A1000F02FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Satheesh;
+				TargetAttributes = {
+					36E3BAD622BCC3A1000F02FE = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					36E3BAED22BCC3A4000F02FE = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 36E3BAD622BCC3A1000F02FE;
+					};
+					36E3BAF822BCC3A4000F02FE = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 36E3BAD622BCC3A1000F02FE;
+					};
+				};
+			};
+			buildConfigurationList = 36E3BAD222BCC3A1000F02FE /* Build configuration list for PBXProject "GoogleMapAutoCompletewithUitextfieldDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36E3BACE22BCC3A1000F02FE;
+			productRefGroup = 36E3BAD822BCC3A1000F02FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36E3BAD622BCC3A1000F02FE /* GoogleMapAutoCompletewithUitextfieldDemo */,
+				36E3BAED22BCC3A4000F02FE /* GoogleMapAutoCompletewithUitextfieldDemoTests */,
+				36E3BAF822BCC3A4000F02FE /* GoogleMapAutoCompletewithUitextfieldDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36E3BAD522BCC3A1000F02FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36E3BAE822BCC3A4000F02FE /* LaunchScreen.storyboard in Resources */,
+				36E3BAE522BCC3A4000F02FE /* Assets.xcassets in Resources */,
+				36E3BAE022BCC3A1000F02FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36E3BAEC22BCC3A4000F02FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36E3BAF722BCC3A4000F02FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36E3BAD322BCC3A1000F02FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36E3BAE322BCC3A1000F02FE /* GoogleMapAutoCompletewithUitextfieldDemo.xcdatamodeld in Sources */,
+				36E3BADD22BCC3A1000F02FE /* ViewController.swift in Sources */,
+				36E3BADB22BCC3A1000F02FE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36E3BAEA22BCC3A4000F02FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36E3BAF322BCC3A4000F02FE /* GoogleMapAutoCompletewithUitextfieldDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36E3BAF522BCC3A4000F02FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36E3BAFE22BCC3A4000F02FE /* GoogleMapAutoCompletewithUitextfieldDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36E3BAF022BCC3A4000F02FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36E3BAD622BCC3A1000F02FE /* GoogleMapAutoCompletewithUitextfieldDemo */;
+			targetProxy = 36E3BAEF22BCC3A4000F02FE /* PBXContainerItemProxy */;
+		};
+		36E3BAFB22BCC3A4000F02FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36E3BAD622BCC3A1000F02FE /* GoogleMapAutoCompletewithUitextfieldDemo */;
+			targetProxy = 36E3BAFA22BCC3A4000F02FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		36E3BADE22BCC3A1000F02FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36E3BADF22BCC3A1000F02FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		36E3BAE622BCC3A4000F02FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36E3BAE722BCC3A4000F02FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36E3BB0022BCC3A4000F02FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		36E3BB0122BCC3A4000F02FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36E3BB0322BCC3A4000F02FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GoogleMapAutoCompletewithUitextfieldDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abc.GoogleMapAutoCompletewithUitextfieldDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		36E3BB0422BCC3A4000F02FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GoogleMapAutoCompletewithUitextfieldDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abc.GoogleMapAutoCompletewithUitextfieldDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		36E3BB0622BCC3A4000F02FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GoogleMapAutoCompletewithUitextfieldDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abc.GoogleMapAutoCompletewithUitextfieldDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleMapAutoCompletewithUitextfieldDemo.app/GoogleMapAutoCompletewithUitextfieldDemo";
+			};
+			name = Debug;
+		};
+		36E3BB0722BCC3A4000F02FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GoogleMapAutoCompletewithUitextfieldDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abc.GoogleMapAutoCompletewithUitextfieldDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleMapAutoCompletewithUitextfieldDemo.app/GoogleMapAutoCompletewithUitextfieldDemo";
+			};
+			name = Release;
+		};
+		36E3BB0922BCC3A4000F02FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GoogleMapAutoCompletewithUitextfieldDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abc.GoogleMapAutoCompletewithUitextfieldDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoogleMapAutoCompletewithUitextfieldDemo;
+			};
+			name = Debug;
+		};
+		36E3BB0A22BCC3A4000F02FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GoogleMapAutoCompletewithUitextfieldDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abc.GoogleMapAutoCompletewithUitextfieldDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoogleMapAutoCompletewithUitextfieldDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36E3BAD222BCC3A1000F02FE /* Build configuration list for PBXProject "GoogleMapAutoCompletewithUitextfieldDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36E3BB0022BCC3A4000F02FE /* Debug */,
+				36E3BB0122BCC3A4000F02FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36E3BB0222BCC3A4000F02FE /* Build configuration list for PBXNativeTarget "GoogleMapAutoCompletewithUitextfieldDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36E3BB0322BCC3A4000F02FE /* Debug */,
+				36E3BB0422BCC3A4000F02FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36E3BB0522BCC3A4000F02FE /* Build configuration list for PBXNativeTarget "GoogleMapAutoCompletewithUitextfieldDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36E3BB0622BCC3A4000F02FE /* Debug */,
+				36E3BB0722BCC3A4000F02FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36E3BB0822BCC3A4000F02FE /* Build configuration list for PBXNativeTarget "GoogleMapAutoCompletewithUitextfieldDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36E3BB0922BCC3A4000F02FE /* Debug */,
+				36E3BB0A22BCC3A4000F02FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		36E3BAE122BCC3A1000F02FE /* GoogleMapAutoCompletewithUitextfieldDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				36E3BAE222BCC3A1000F02FE /* GoogleMapAutoCompletewithUitextfieldDemo.xcdatamodel */,
+			);
+			currentVersion = 36E3BAE222BCC3A1000F02FE /* GoogleMapAutoCompletewithUitextfieldDemo.xcdatamodel */;
+			path = GoogleMapAutoCompletewithUitextfieldDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 36E3BACF22BCC3A1000F02FE /* Project object */;
+}
