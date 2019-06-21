@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		36E3BADB22BCC3A1000F02FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E3BADA22BCC3A1000F02FE /* AppDelegate.swift */; };
-		36E3BADD22BCC3A1000F02FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E3BADC22BCC3A1000F02FE /* ViewController.swift */; };
 		36E3BAE022BCC3A1000F02FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36E3BADE22BCC3A1000F02FE /* Main.storyboard */; };
 		36E3BAE322BCC3A1000F02FE /* GoogleMapAutoCompletewithUitextfieldDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 36E3BAE122BCC3A1000F02FE /* GoogleMapAutoCompletewithUitextfieldDemo.xcdatamodeld */; };
 		36E3BAE522BCC3A4000F02FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36E3BAE422BCC3A4000F02FE /* Assets.xcassets */; };
 		36E3BAE822BCC3A4000F02FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36E3BAE622BCC3A4000F02FE /* LaunchScreen.storyboard */; };
 		36E3BAF322BCC3A4000F02FE /* GoogleMapAutoCompletewithUitextfieldDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E3BAF222BCC3A4000F02FE /* GoogleMapAutoCompletewithUitextfieldDemoTests.swift */; };
 		36E3BAFE22BCC3A4000F02FE /* GoogleMapAutoCompletewithUitextfieldDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E3BAFD22BCC3A4000F02FE /* GoogleMapAutoCompletewithUitextfieldDemoUITests.swift */; };
+		36E3BB0C22BCC3D1000F02FE /* AutoCompleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E3BB0B22BCC3D1000F02FE /* AutoCompleteViewController.swift */; };
+		3D0503AACE696C85DB13A105 /* Pods_GoogleMapAutoCompletewithUitextfieldDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F9B9F645DFE46D79EA474C /* Pods_GoogleMapAutoCompletewithUitextfieldDemoUITests.framework */; };
+		A2DB9356F6E87805F877E113 /* Pods_GoogleMapAutoCompletewithUitextfieldDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57EB4637310137BDCAAC85E1 /* Pods_GoogleMapAutoCompletewithUitextfieldDemoTests.framework */; };
+		D23D1EE04E63E1981B831F0C /* Pods_GoogleMapAutoCompletewithUitextfieldDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A458A750E12A7F1A12293C7 /* Pods_GoogleMapAutoCompletewithUitextfieldDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0158D141E375BC551D7D0770 /* Pods-GoogleMapAutoCompletewithUitextfieldDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMapAutoCompletewithUitextfieldDemoTests.release.xcconfig"; path = "Target Support Files/Pods-GoogleMapAutoCompletewithUitextfieldDemoTests/Pods-GoogleMapAutoCompletewithUitextfieldDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		0375137F3458C23494811F56 /* Pods-GoogleMapAutoCompletewithUitextfieldDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMapAutoCompletewithUitextfieldDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-GoogleMapAutoCompletewithUitextfieldDemoUITests/Pods-GoogleMapAutoCompletewithUitextfieldDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		07F9B9F645DFE46D79EA474C /* Pods_GoogleMapAutoCompletewithUitextfieldDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleMapAutoCompletewithUitextfieldDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A458A750E12A7F1A12293C7 /* Pods_GoogleMapAutoCompletewithUitextfieldDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleMapAutoCompletewithUitextfieldDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		36E3BAD722BCC3A1000F02FE /* GoogleMapAutoCompletewithUitextfieldDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleMapAutoCompletewithUitextfieldDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36E3BADA22BCC3A1000F02FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		36E3BADC22BCC3A1000F02FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		36E3BADF22BCC3A1000F02FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		36E3BAE222BCC3A1000F02FE /* GoogleMapAutoCompletewithUitextfieldDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoogleMapAutoCompletewithUitextfieldDemo.xcdatamodel; sourceTree = "<group>"; };
 		36E3BAE422BCC3A4000F02FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +55,12 @@
 		36E3BAF922BCC3A4000F02FE /* GoogleMapAutoCompletewithUitextfieldDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleMapAutoCompletewithUitextfieldDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36E3BAFD22BCC3A4000F02FE /* GoogleMapAutoCompletewithUitextfieldDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapAutoCompletewithUitextfieldDemoUITests.swift; sourceTree = "<group>"; };
 		36E3BAFF22BCC3A4000F02FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36E3BB0B22BCC3D1000F02FE /* AutoCompleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoCompleteViewController.swift; sourceTree = "<group>"; };
+		57EB4637310137BDCAAC85E1 /* Pods_GoogleMapAutoCompletewithUitextfieldDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleMapAutoCompletewithUitextfieldDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63FF21EF8C9E881B33DCC4A8 /* Pods-GoogleMapAutoCompletewithUitextfieldDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMapAutoCompletewithUitextfieldDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-GoogleMapAutoCompletewithUitextfieldDemoUITests/Pods-GoogleMapAutoCompletewithUitextfieldDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9F1EE13DB22AF1D40B3BD375 /* Pods-GoogleMapAutoCompletewithUitextfieldDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMapAutoCompletewithUitextfieldDemo.debug.xcconfig"; path = "Target Support Files/Pods-GoogleMapAutoCompletewithUitextfieldDemo/Pods-GoogleMapAutoCompletewithUitextfieldDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A70AC6DB42A1A8C23411C803 /* Pods-GoogleMapAutoCompletewithUitextfieldDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMapAutoCompletewithUitextfieldDemo.release.xcconfig"; path = "Target Support Files/Pods-GoogleMapAutoCompletewithUitextfieldDemo/Pods-GoogleMapAutoCompletewithUitextfieldDemo.release.xcconfig"; sourceTree = "<group>"; };
+		DDC5DC3A9CC173B457552C08 /* Pods-GoogleMapAutoCompletewithUitextfieldDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMapAutoCompletewithUitextfieldDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-GoogleMapAutoCompletewithUitextfieldDemoTests/Pods-GoogleMapAutoCompletewithUitextfieldDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D23D1EE04E63E1981B831F0C /* Pods_GoogleMapAutoCompletewithUitextfieldDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2DB9356F6E87805F877E113 /* Pods_GoogleMapAutoCompletewithUitextfieldDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D0503AACE696C85DB13A105 /* Pods_GoogleMapAutoCompletewithUitextfieldDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D0F5D221911EA9E5312B7DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A458A750E12A7F1A12293C7 /* Pods_GoogleMapAutoCompletewithUitextfieldDemo.framework */,
+				57EB4637310137BDCAAC85E1 /* Pods_GoogleMapAutoCompletewithUitextfieldDemoTests.framework */,
+				07F9B9F645DFE46D79EA474C /* Pods_GoogleMapAutoCompletewithUitextfieldDemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		36E3BACE22BCC3A1000F02FE = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +108,8 @@
 				36E3BAF122BCC3A4000F02FE /* GoogleMapAutoCompletewithUitextfieldDemoTests */,
 				36E3BAFC22BCC3A4000F02FE /* GoogleMapAutoCompletewithUitextfieldDemoUITests */,
 				36E3BAD822BCC3A1000F02FE /* Products */,
+				4CB7E573256197FDADDA7640 /* Pods */,
+				2D0F5D221911EA9E5312B7DD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,7 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				36E3BADA22BCC3A1000F02FE /* AppDelegate.swift */,
-				36E3BADC22BCC3A1000F02FE /* ViewController.swift */,
+				36E3BB0B22BCC3D1000F02FE /* AutoCompleteViewController.swift */,
 				36E3BADE22BCC3A1000F02FE /* Main.storyboard */,
 				36E3BAE422BCC3A4000F02FE /* Assets.xcassets */,
 				36E3BAE622BCC3A4000F02FE /* LaunchScreen.storyboard */,
@@ -128,6 +155,20 @@
 			path = GoogleMapAutoCompletewithUitextfieldDemoUITests;
 			sourceTree = "<group>";
 		};
+		4CB7E573256197FDADDA7640 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F1EE13DB22AF1D40B3BD375 /* Pods-GoogleMapAutoCompletewithUitextfieldDemo.debug.xcconfig */,
+				A70AC6DB42A1A8C23411C803 /* Pods-GoogleMapAutoCompletewithUitextfieldDemo.release.xcconfig */,
+				DDC5DC3A9CC173B457552C08 /* Pods-GoogleMapAutoCompletewithUitextfieldDemoTests.debug.xcconfig */,
+				0158D141E375BC551D7D0770 /* Pods-GoogleMapAutoCompletewithUitextfieldDemoTests.release.xcconfig */,
+				63FF21EF8C9E881B33DCC4A8 /* Pods-GoogleMapAutoCompletewithUitextfieldDemoUITests.debug.xcconfig */,
+				0375137F3458C23494811F56 /* Pods-GoogleMapAutoCompletewithUitextfieldDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 36E3BB0222BCC3A4000F02FE /* Build configuration list for PBXNativeTarget "GoogleMapAutoCompletewithUitextfieldDemo" */;
 			buildPhases = (
+				AE67745C8762C0FAEE709ED4 /* [CP] Check Pods Manifest.lock */,
 				36E3BAD322BCC3A1000F02FE /* Sources */,
 				36E3BAD422BCC3A1000F02FE /* Frameworks */,
 				36E3BAD522BCC3A1000F02FE /* Resources */,
+				FD65473B3AFB2A1405F2E4BA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 36E3BB0522BCC3A4000F02FE /* Build configuration list for PBXNativeTarget "GoogleMapAutoCompletewithUitextfieldDemoTests" */;
 			buildPhases = (
+				7D6C94F7909E9B881921D230 /* [CP] Check Pods Manifest.lock */,
 				36E3BAEA22BCC3A4000F02FE /* Sources */,
 				36E3BAEB22BCC3A4000F02FE /* Frameworks */,
 				36E3BAEC22BCC3A4000F02FE /* Resources */,
@@ -170,6 +214,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 36E3BB0822BCC3A4000F02FE /* Build configuration list for PBXNativeTarget "GoogleMapAutoCompletewithUitextfieldDemoUITests" */;
 			buildPhases = (
+				8D7B1213B657368AA95F9EFD /* [CP] Check Pods Manifest.lock */,
 				36E3BAF522BCC3A4000F02FE /* Sources */,
 				36E3BAF622BCC3A4000F02FE /* Frameworks */,
 				36E3BAF722BCC3A4000F02FE /* Resources */,
@@ -254,13 +299,106 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7D6C94F7909E9B881921D230 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoogleMapAutoCompletewithUitextfieldDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D7B1213B657368AA95F9EFD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoogleMapAutoCompletewithUitextfieldDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE67745C8762C0FAEE709ED4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoogleMapAutoCompletewithUitextfieldDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD65473B3AFB2A1405F2E4BA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleMapAutoCompletewithUitextfieldDemo/Pods-GoogleMapAutoCompletewithUitextfieldDemo-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoogleMapAutoCompletewithUitextfieldDemo/Pods-GoogleMapAutoCompletewithUitextfieldDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		36E3BAD322BCC3A1000F02FE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36E3BB0C22BCC3D1000F02FE /* AutoCompleteViewController.swift in Sources */,
 				36E3BAE322BCC3A1000F02FE /* GoogleMapAutoCompletewithUitextfieldDemo.xcdatamodeld in Sources */,
-				36E3BADD22BCC3A1000F02FE /* ViewController.swift in Sources */,
 				36E3BADB22BCC3A1000F02FE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,9 +572,11 @@
 		};
 		36E3BB0322BCC3A4000F02FE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F1EE13DB22AF1D40B3BD375 /* Pods-GoogleMapAutoCompletewithUitextfieldDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = GoogleMapAutoCompletewithUitextfieldDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -451,9 +591,11 @@
 		};
 		36E3BB0422BCC3A4000F02FE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A70AC6DB42A1A8C23411C803 /* Pods-GoogleMapAutoCompletewithUitextfieldDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = GoogleMapAutoCompletewithUitextfieldDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -468,6 +610,7 @@
 		};
 		36E3BB0622BCC3A4000F02FE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDC5DC3A9CC173B457552C08 /* Pods-GoogleMapAutoCompletewithUitextfieldDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +631,7 @@
 		};
 		36E3BB0722BCC3A4000F02FE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0158D141E375BC551D7D0770 /* Pods-GoogleMapAutoCompletewithUitextfieldDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +652,7 @@
 		};
 		36E3BB0922BCC3A4000F02FE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63FF21EF8C9E881B33DCC4A8 /* Pods-GoogleMapAutoCompletewithUitextfieldDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +672,7 @@
 		};
 		36E3BB0A22BCC3A4000F02FE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0375137F3458C23494811F56 /* Pods-GoogleMapAutoCompletewithUitextfieldDemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

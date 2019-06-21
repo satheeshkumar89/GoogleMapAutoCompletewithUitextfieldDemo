@@ -1,24 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Auto Complete View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="AutoCompleteViewController" customModule="GoogleMapAutoCompletewithUitextfieldDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Search Area" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rDU-r6-jib">
+                                <rect key="frame" x="20" y="144" width="374" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="C9U-4h-6I4"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="8UN-PZ-Etq">
+                                <rect key="frame" x="20" y="189" width="374" height="653"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="AutoCompleteCell" rowHeight="60" id="Gxd-mP-67L" userLabel="AutoCompleteCell" customClass="AutoCompleteCell" customModule="GoogleMapAutoCompletewithUitextfieldDemo" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="374" height="60"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Gxd-mP-67L" id="uMx-Ct-kOX">
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="59.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mV4-iG-aMw">
+                                                    <rect key="frame" x="5" y="5" width="364" height="49.5"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dbf-Wz-tll">
+                                                            <rect key="frame" x="0.0" y="0.0" width="364" height="49.5"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="trailing" secondItem="Dbf-Wz-tll" secondAttribute="trailing" id="8j9-6Y-vCn"/>
+                                                        <constraint firstItem="Dbf-Wz-tll" firstAttribute="top" secondItem="mV4-iG-aMw" secondAttribute="top" id="9VF-r0-8sy"/>
+                                                        <constraint firstAttribute="bottom" secondItem="Dbf-Wz-tll" secondAttribute="bottom" id="Nlm-kM-r0w"/>
+                                                        <constraint firstItem="Dbf-Wz-tll" firstAttribute="leading" secondItem="mV4-iG-aMw" secondAttribute="leading" id="StN-91-VaD"/>
+                                                    </constraints>
+                                                </view>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="mV4-iG-aMw" firstAttribute="top" secondItem="uMx-Ct-kOX" secondAttribute="top" constant="5" id="63M-De-x1w"/>
+                                                <constraint firstAttribute="trailing" secondItem="mV4-iG-aMw" secondAttribute="trailing" constant="5" id="baZ-UX-eLW"/>
+                                                <constraint firstAttribute="bottom" secondItem="mV4-iG-aMw" secondAttribute="bottom" constant="5" id="m2j-lA-DJL"/>
+                                                <constraint firstItem="mV4-iG-aMw" firstAttribute="leading" secondItem="uMx-Ct-kOX" secondAttribute="leading" constant="5" id="qE2-AJ-uhg"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="AutoCompleteLabel" destination="Dbf-Wz-tll" id="4X7-3j-ILJ"/>
+                                            <outlet property="bgView" destination="mV4-iG-aMw" id="suE-lN-7Yi"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rDU-r6-jib" secondAttribute="trailing" constant="20" id="7w4-gx-7qI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8UN-PZ-Etq" secondAttribute="trailing" constant="20" id="8O0-kQ-NVV"/>
+                            <constraint firstItem="8UN-PZ-Etq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="GR1-bM-NYD"/>
+                            <constraint firstItem="rDU-r6-jib" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KhE-jb-Bib"/>
+                            <constraint firstItem="8UN-PZ-Etq" firstAttribute="top" secondItem="rDU-r6-jib" secondAttribute="bottom" constant="5" id="Ovl-QU-gza"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="8UN-PZ-Etq" secondAttribute="bottom" constant="20" id="TCA-4i-fnd"/>
+                            <constraint firstItem="rDU-r6-jib" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="hUx-wf-PGI"/>
+                            <constraint firstItem="rDU-r6-jib" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="ucB-AN-6wk"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="AutoCompleteField" destination="rDU-r6-jib" id="tgc-gt-QZ1"/>
+                        <outlet property="AutoCompleteTableview" destination="8UN-PZ-Etq" id="ah8-hp-Esx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="138.61607142857142"/>
         </scene>
     </scenes>
 </document>
