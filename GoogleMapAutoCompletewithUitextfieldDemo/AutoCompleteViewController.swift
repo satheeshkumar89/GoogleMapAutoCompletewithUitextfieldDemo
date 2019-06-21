@@ -21,8 +21,8 @@ class AutoCompleteViewController: UIViewController,UITextFieldDelegate{
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        GMSServices.provideAPIKey("AIzaSyAuP-zWnG_J1Dcof7XDGn_bHrlUFyAKtmY") // GoogleMap - Api Key
-        GMSPlacesClient.provideAPIKey("AIzaSyAuP-zWnG_J1Dcof7XDGn_bHrlUFyAKtmY") // GoogleMap - Client Key
+        GMSServices.provideAPIKey("") // GoogleMap - Api Key
+        GMSPlacesClient.provideAPIKey("") // GoogleMap - Client Key
 
         AutoCompleteField.font = UIFont.systemFont(ofSize: 18)
         AutoCompleteField.attributedPlaceholder = NSAttributedString(string: "placeholder text",
